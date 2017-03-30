@@ -1,0 +1,360 @@
+body{
+	margin:0;
+	background-color:#369;
+	overflow-y:hidden;
+}
+
+#contenido{
+	width:750px; 
+	height:80px; 
+	margin: 0 auto; 
+	overflow:hidden; 
+	position:relative;
+}
+
+#btn1{
+	background:#06F;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:50px;
+	padding-left:10px;
+	text-align:center;	
+}
+
+#btn2{
+	background:#74DF00;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:50px;
+	padding-left:10px;
+	text-align:center;
+}
+
+#btn3{
+	background:#F60;
+	border-color:#F60;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:50px;
+	padding-left:10px;
+	text-align:center;
+}
+
+#btn4{
+	background:#B4045F;
+	border-color:#F60;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	margin-top:30px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:50px;
+	padding-left:10px;
+	text-align:center;
+}
+#btn5{
+	background:#F36;
+	border-color:#F60;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	margin-top:30px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:50px;
+	padding-left:10px;
+	text-align:center;
+}
+
+#btn6{
+	background:#6C0;
+	height:200px;
+	width:200px;
+	position:relative;
+	margin-left:10px;
+	margin-top:30px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:50px;
+	padding-left:10px;
+	text-align:center;
+}
+
+#content{
+	background:#369;
+	height:480px;
+	width:750px;
+	position:relative;
+	top:500px;
+	z-index:0;
+}
+
+#backbutton{
+	position:relative;
+	left:760px;
+	cursor:pointer;
+	height:44px; 
+	width:44px; 
+	margin-top:15px; 
+	float:left; 
+	position:absolute;
+}
+
+#caption{
+	position:relative;
+	top:-60px;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#pagecaption{
+	position:relative;
+	top:-60px;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+i{
+	position: relative;
+	top: 20px;
+	margin-top:3px;
+}
+
+#panel{
+	width:750px; 
+	height:450px; 
+	overflow:hidden; 
+	margin: 0 auto; 
+	position:relative; 
+	margin-top:35px;
+}
+
+@media screen and (max-width: 380px) {
+	body{
+		margin:0;
+		background-color:#369;
+		overflow-y:hidden;
+		overflow-x:hidden;
+	}
+	#content{
+		background:#369;
+		height:auto;
+		width:100%;
+		position:relative;
+		top:500px;
+		z-index:0;
+	}
+	#panel{
+		width:80%; 
+		height:418.3px; 
+		overflow:hidden; 
+		margin: 0 auto; 
+		position:relative; 
+		margin-top:35px;
+		left: 45px;
+	}
+
+	#pagecaption{
+		position:relative;
+		top:-60px;
+		
+		color:#FFF;
+		font-size:18px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+
+	#btn1{
+		background:#06F;
+		height:80px;
+		width:80px;
+		position:relative;
+		margin-left:10px;
+		left:900px;
+		cursor:pointer;
+		
+		color:#FFF;
+		font-size:25px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		line-height:50px;
+		padding-left:10px;
+		text-align:center;	
+	}
+	    #btn2{
+		background:#74DF00;
+		height:80px;
+		width:80px;
+		position:relative;
+		margin-left:10px;
+		left:900px;
+		cursor:pointer;
+		
+		color:#FFF;
+		font-size:25px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		line-height:50px;
+		padding-left:10px;
+		text-align:center;
+	}
+
+	#btn3{
+		background:#F60;
+		border-color:#F60;
+		height:80px;
+		width:80px;
+		position:relative;
+		margin-left:-230px;
+		margin-top:100px;
+		left:900px;
+		cursor:pointer;
+		
+		color:#FFF;
+		font-size:25px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		line-height:50px;
+		padding-left:10px;
+		text-align:center;	
+	}
+
+	#btn4{
+		background:#B4045F;
+		border-color:#F60;
+		height:80px;
+		width:80px;
+		position:relative;
+		margin-left:-70px;
+		margin-top:100px;
+		left:900px;
+		cursor:pointer;
+		
+		color:#FFF;
+		font-size:25px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		line-height:50px;
+		padding-left:10px;
+		text-align:center;
+	}
+	#btn5{
+		background:#F36;
+		border-color:#F60;
+		height:80px;
+		width:80px;
+		position:relative;
+		margin-left:10px;
+		margin-top:30px;
+		left:900px;
+		cursor:pointer;
+		
+		color:#FFF;
+		font-size:25px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		line-height:50px;
+		padding-left:10px;
+		text-align:center;
+	}
+
+	#btn6{
+		background:#6C0;
+		height:80px;
+		width:80px;
+		position:relative;
+		margin-left:10px;
+		margin-top:30px;
+		left:900px;
+		cursor:pointer;
+		
+		color:#FFF;
+		font-size:25px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		line-height:50px;
+		padding-left:10px;
+		text-align:center;
+	}
+
+	.fa-5x{
+		font-size: 40px;
+		position: relative;
+		top: 10px;
+		right: 5px;
+	}
+
+	#btn1 p{
+		font-size: 12px;
+		position: relative;
+		top: -10px;
+		right: 5px;
+	}
+	#btn2 p{
+		font-size: 12px;
+		position: relative;
+		top: -10px;
+		right: 5px;
+	}
+	#btn3 p{
+		font-size: 12px;
+		position: relative;
+		top: -10px;
+		right: 5px;
+	}
+	#btn4 p{
+		font-size: 12px;
+		position: relative;
+		top: -10px;
+		right: 5px;
+	}
+
+	#backbutton{
+		position:fixed;
+		}
+	#footer p{
+		text-align: center;
+		position: relative;
+		left: -218px;
+	}
+
+
+}
+
+
